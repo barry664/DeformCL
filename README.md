@@ -1,6 +1,6 @@
 # DeformCL: Learning Deformable Centerline Representation for Vessel Extraction in 3D Medical Image
 
-This repo is the official implementation of our CVPR 2025 paper: **DeformCL: Learning Deformable Centerline Representation for Vessel Extraction in 3D Medical Image** [link] as well as the follow-ups. We have made every effort to ensure that the codebase is clean, concise, easily readable, and relies only on minimal dependencies.
+This repo is the official implementation of our CVPR 2025 paper: [**DeformCL: Learning Deformable Centerline Representation for Vessel Extraction in 3D Medical Image**](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_DeformCL_Learning_Deformable_Centerline_Representation_for_Vessel_Extraction_in_3D_CVPR_2025_paper.pdf) as well as the follow-ups. We have made every effort to ensure that the codebase is clean, concise, easily readable, and relies only on minimal dependencies.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -163,7 +163,13 @@ To make the code concise, understandable, and less dependent on external librari
 ## Citation
 Please consider citing our work as follows if it is helpful.
 ```
-TBD
+@inproceedings{zhao2025deformcl,
+  title={DeformCL: Learning Deformable Centerline Representation for Vessel Extraction in 3D Medical Image},
+  author={Zhao, Ziwei and Zhang, Zhixing and Liu, Yuhang and Zhang, Zhao and Yu, Haojun and Wang, Dong and Wang, Liwei},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={30896--30905},
+  year={2025}
+}
 ```
 
 ## Potential Research 
