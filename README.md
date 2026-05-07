@@ -3,6 +3,7 @@
 This repo is the official implementation of our CVPR 2025 paper: [**DeformCL: Learning Deformable Centerline Representation for Vessel Extraction in 3D Medical Image**](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_DeformCL_Learning_Deformable_Centerline_Representation_for_Vessel_Extraction_in_3D_CVPR_2025_paper.pdf) as well as the follow-ups. We have made every effort to ensure that the codebase is clean, concise, easily readable, and relies only on minimal dependencies.
 
 ## Table of Contents
+- [News](#news)
 - [Introduction](#introduction)
 - [Main Results](#main-results)
 - [Usage](#usage)
@@ -10,6 +11,10 @@ This repo is the official implementation of our CVPR 2025 paper: [**DeformCL: Le
 - [Citation](#citation)
 - [Potential Research](#potential-research)
 - [Acknowledgments](#acknowledgments)
+
+## News
+
+- **2026-05-07**: We release the ImageCAS vessel masks used in our paper, including LAD, LCX, and RCA annotations. The dataset is available as [`imagecas_nii_350.zip`](https://github.com/barry664/DeformCL/releases/download/imagecas_nii_350/imagecas_nii_350.zip) on GitHub Releases to facilitate follow-up studies.
 
 ## Introduction
 ![image-20250530163014132](images/intro.png)
@@ -98,6 +103,8 @@ Run the following bash command to prepare the dataset HaN-Seg:
 ```bash
 python process_dataset.py
 ```
+
+For the ImageCAS vessel masks used in our paper, please download [`imagecas_nii_350.zip`](https://github.com/barry664/DeformCL/releases/download/imagecas_nii_350/imagecas_nii_350.zip) from GitHub Releases. The archive contains LAD, LCX, and RCA mask annotations.
 
 ### Training & Evaluation
 
